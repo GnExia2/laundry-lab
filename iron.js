@@ -8,10 +8,11 @@ var wrinkled_clothes = [
 ];
 
 /* YOUR CODE HERE */
+
+var ironed_Clothes = wrinkled_clothes.map(iron);
+
 function iron(clothing_item){
-    // return ironed_clothing_item;
-}
-
-
+  console.log(clothing_item.toLowerCase());
+};
 /* PRINT RESULT */
-console.log("--> Finished running iron.js");
+console.log(" Finished running iron.js ");

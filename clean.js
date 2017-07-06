@@ -7,8 +7,13 @@ var dirty_clothes = [
 ];
 
 /* YOUR CODE HERE */
+var clean_Clothes = dirty_clothes.map(clean)
+
+
 function clean(clothing_item){
-    // return clean_clothing_item;
+  var slice_clothes = clothing_item.split("*");
+  return((slice_clothes[0] + slice_clothes[1]));
+
 }
 
 
